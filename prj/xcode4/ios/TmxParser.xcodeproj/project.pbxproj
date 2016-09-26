@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08944EAEDD1765D89ECA74EE /* TmxObjectGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84290A4C97645D36FD4D088C /* TmxObjectGroup.cpp */; };
+		0F869BC2926228ECD61A8202 /* TmxEllipse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6940B4206B34BD0A4E6A7260 /* TmxEllipse.cpp */; };
+		1705C90209B13EAC7F39FF42 /* TmxUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAED382001EF598AFC354660 /* TmxUtil.cpp */; };
+		271DBEA2DA3BC1CC7C4F64E2 /* TmxMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B75CCA00EDB388EA3ECC4840 /* TmxMap.cpp */; };
+		331989DEDB0D0988EE40001E /* TmxPolyline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B84EDD3C0768C8A68EE12B7C /* TmxPolyline.cpp */; };
+		341C2086A3BB65306E13B6C6 /* TmxImageLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F6EE4B3F4FF4E33EEDD24 /* TmxImageLayer.cpp */; };
+		46F70BF6C9D299200D8AF236 /* TmxPolygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F22BE143116C6FE144C7C54 /* TmxPolygon.cpp */; };
+		4F10D76241BC4D0CB7450DA2 /* TmxTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77FD18809EFF39EA994526C0 /* TmxTile.cpp */; };
+		5510750CA06FFD369B2B3B4C /* TmxImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D585BCA5D687FB400DCFA0A /* TmxImage.cpp */; };
+		6618CB1AE8F458442CACB15A /* TmxTileset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A15A3F80C09ACE2EF3F6238 /* TmxTileset.cpp */; };
+		75898A70E528CF1AAF8120B0 /* TmxTileOffset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68C7F6AE405D8718C05764EE /* TmxTileOffset.cpp */; };
+		7C0F47DCEEE15A069AAC4E1C /* TmxTileLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C03FA49A3D821284849E82DA /* TmxTileLayer.cpp */; };
+		94991D22AC6688CC581B1362 /* miniz.c in Sources */ = {isa = PBXBuildFile; fileRef = 60263B402D3A92AA52640980 /* miniz.c */; };
+		B3F9CF6EB59F5918B05285AE /* TmxTerrainArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E6424CCDDBFDA366080B30C /* TmxTerrainArray.cpp */; };
+		B7EFED34595227DEEFD54374 /* TmxObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3155033265FDC99CB87A3172 /* TmxObject.cpp */; };
+		B9FDBD80055D45AA001883C0 /* TmxLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D1811FE6D2835E8109CB03E /* TmxLayer.cpp */; };
+		C02432A894A749D2565A58E8 /* TmxPropertySet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F3D2D2672788010D8612B66 /* TmxPropertySet.cpp */; };
+		EB637E306E3F0B5AB1F76470 /* TmxTerrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6431632E66256C18495B216E /* TmxTerrain.cpp */; };
+		F683C152C42D513C2B13DF92 /* base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C80EA43091D037DA33D99A70 /* base64.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00E9DFBB7E2C4DA5C548BDFB /* TmxUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxUtil.h; path = ../../../include/TmxParser/TmxUtil.h; sourceTree = "<group>"; };
+		07AC8B0139740A6BDB935941 /* TmxPropertySet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxPropertySet.h; path = ../../../include/TmxParser/TmxPropertySet.h; sourceTree = "<group>"; };
+		0A15A3F80C09ACE2EF3F6238 /* TmxTileset.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxTileset.cpp; path = ../../../src/TmxTileset.cpp; sourceTree = "<group>"; };
+		0D5D6B273F24EA91E1443967 /* TmxObjectGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxObjectGroup.h; path = ../../../include/TmxParser/TmxObjectGroup.h; sourceTree = "<group>"; };
+		0E6424CCDDBFDA366080B30C /* TmxTerrainArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxTerrainArray.cpp; path = ../../../src/TmxTerrainArray.cpp; sourceTree = "<group>"; };
+		18CC394D2C078C3791F0378D /* TmxObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxObject.h; path = ../../../include/TmxParser/TmxObject.h; sourceTree = "<group>"; };
+		1F49038C19093DB60E6F09CC /* tmw_desert_spacing.png */ = {isa = PBXFileReference; lastKnownFileType = text; name = tmw_desert_spacing.png; path = ../../../data/tmw_desert_spacing.png; sourceTree = "<group>"; };
+		1F6127EFEEBCDD59717DB62F /* TmxPolygon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxPolygon.h; path = ../../../include/TmxParser/TmxPolygon.h; sourceTree = "<group>"; };
+		2746BDD73C6575C172BFDC17 /* TmxPolyline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxPolyline.h; path = ../../../include/TmxParser/TmxPolyline.h; sourceTree = "<group>"; };
+		279D81882EE3D03271E757C8 /* example.tmx */ = {isa = PBXFileReference; lastKnownFileType = text; name = example.tmx; path = ../../../data/example.tmx; sourceTree = "<group>"; };
+		2F22BE143116C6FE144C7C54 /* TmxPolygon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxPolygon.cpp; path = ../../../src/TmxPolygon.cpp; sourceTree = "<group>"; };
+		3155033265FDC99CB87A3172 /* TmxObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxObject.cpp; path = ../../../src/TmxObject.cpp; sourceTree = "<group>"; };
+		5917D0FFCD446DE9DC760F3F /* TmxImageLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxImageLayer.h; path = ../../../include/TmxParser/TmxImageLayer.h; sourceTree = "<group>"; };
+		5F3D2D2672788010D8612B66 /* TmxPropertySet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxPropertySet.cpp; path = ../../../src/TmxPropertySet.cpp; sourceTree = "<group>"; };
+		60263B402D3A92AA52640980 /* miniz.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = miniz.c; path = ../../../src/miniz.c; sourceTree = "<group>"; };
+		6431632E66256C18495B216E /* TmxTerrain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxTerrain.cpp; path = ../../../src/TmxTerrain.cpp; sourceTree = "<group>"; };
+		68C7F6AE405D8718C05764EE /* TmxTileOffset.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxTileOffset.cpp; path = ../../../src/TmxTileOffset.cpp; sourceTree = "<group>"; };
+		6940B4206B34BD0A4E6A7260 /* TmxEllipse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxEllipse.cpp; path = ../../../src/TmxEllipse.cpp; sourceTree = "<group>"; };
+		6B92C3FB3AEE7965BDAF523B /* TmxEllipse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxEllipse.h; path = ../../../include/TmxParser/TmxEllipse.h; sourceTree = "<group>"; };
+		6D585BCA5D687FB400DCFA0A /* TmxImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxImage.cpp; path = ../../../src/TmxImage.cpp; sourceTree = "<group>"; };
+		6FA3E3F73EFF9961C1C07237 /* TmxMapTile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxMapTile.h; path = ../../../include/TmxParser/TmxMapTile.h; sourceTree = "<group>"; };
+		77FD18809EFF39EA994526C0 /* TmxTile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxTile.cpp; path = ../../../src/TmxTile.cpp; sourceTree = "<group>"; };
+		7D1811FE6D2835E8109CB03E /* TmxLayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxLayer.cpp; path = ../../../src/TmxLayer.cpp; sourceTree = "<group>"; };
+		84290A4C97645D36FD4D088C /* TmxObjectGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxObjectGroup.cpp; path = ../../../src/TmxObjectGroup.cpp; sourceTree = "<group>"; };
+		9F01086760A60A5107D466A7 /* TmxTerrainArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxTerrainArray.h; path = ../../../include/TmxParser/TmxTerrainArray.h; sourceTree = "<group>"; };
+		A05E0EF5780A695FAE97BD35 /* TmxTileLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxTileLayer.h; path = ../../../include/TmxParser/TmxTileLayer.h; sourceTree = "<group>"; };
+		ABC2DFD37B1E953DFDDF6E13 /* TmxTileset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxTileset.h; path = ../../../include/TmxParser/TmxTileset.h; sourceTree = "<group>"; };
+		AFF033598785C3C3077FA199 /* TmxLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxLayer.h; path = ../../../include/TmxParser/TmxLayer.h; sourceTree = "<group>"; };
+		B75CCA00EDB388EA3ECC4840 /* TmxMap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxMap.cpp; path = ../../../src/TmxMap.cpp; sourceTree = "<group>"; };
+		B84EDD3C0768C8A68EE12B7C /* TmxPolyline.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxPolyline.cpp; path = ../../../src/TmxPolyline.cpp; sourceTree = "<group>"; };
+		C03FA49A3D821284849E82DA /* TmxTileLayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxTileLayer.cpp; path = ../../../src/TmxTileLayer.cpp; sourceTree = "<group>"; };
+		C396EEDB12B0DA459A293D1B /* TmxMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxMap.h; path = ../../../include/TmxParser/TmxMap.h; sourceTree = "<group>"; };
+		C491701B41D3DE0588F04E5B /* TmxTile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxTile.h; path = ../../../include/TmxParser/TmxTile.h; sourceTree = "<group>"; };
+		C80EA43091D037DA33D99A70 /* base64.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = base64.cpp; path = ../../../src/base64/base64.cpp; sourceTree = "<group>"; };
+		DAED382001EF598AFC354660 /* TmxUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxUtil.cpp; path = ../../../src/TmxUtil.cpp; sourceTree = "<group>"; };
+		DC5F6EE4B3F4FF4E33EEDD24 /* TmxImageLayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxImageLayer.cpp; path = ../../../src/TmxImageLayer.cpp; sourceTree = "<group>"; };
+		E3659D3FD375C12976EA3B7F /* Tmx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Tmx.h; path = ../../../include/TmxParser/Tmx.h; sourceTree = "<group>"; };
+		EB4D0A09BAA8BF733D699849 /* TmxTerrain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxTerrain.h; path = ../../../include/TmxParser/TmxTerrain.h; sourceTree = "<group>"; };
+		EFE8E325C77E738F47785165 /* TmxImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxImage.h; path = ../../../include/TmxParser/TmxImage.h; sourceTree = "<group>"; };
+		F2E022DAFA2671843D29F91A /* base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = base64.h; path = ../../../src/base64/base64.h; sourceTree = "<group>"; };
+		F4191973CBAEA9DD4BA887B3 /* TmxPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxPoint.h; path = ../../../include/TmxParser/TmxPoint.h; sourceTree = "<group>"; };
+		F8DCD5C96D0972B37C3B1409 /* TmxTileOffset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TmxTileOffset.h; path = ../../../include/TmxParser/TmxTileOffset.h; sourceTree = "<group>"; };
+		FFEB19896FF5CB73ECEC77C9 /* TmxParser */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = TmxParser; path = libTmxParser_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E19357981538263AEA573B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4714CAE95DF33353427B3929 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6940B4206B34BD0A4E6A7260 /* TmxEllipse.cpp */,
+				6D585BCA5D687FB400DCFA0A /* TmxImage.cpp */,
+				DC5F6EE4B3F4FF4E33EEDD24 /* TmxImageLayer.cpp */,
+				7D1811FE6D2835E8109CB03E /* TmxLayer.cpp */,
+				B75CCA00EDB388EA3ECC4840 /* TmxMap.cpp */,
+				3155033265FDC99CB87A3172 /* TmxObject.cpp */,
+				84290A4C97645D36FD4D088C /* TmxObjectGroup.cpp */,
+				2F22BE143116C6FE144C7C54 /* TmxPolygon.cpp */,
+				B84EDD3C0768C8A68EE12B7C /* TmxPolyline.cpp */,
+				5F3D2D2672788010D8612B66 /* TmxPropertySet.cpp */,
+				6431632E66256C18495B216E /* TmxTerrain.cpp */,
+				0E6424CCDDBFDA366080B30C /* TmxTerrainArray.cpp */,
+				77FD18809EFF39EA994526C0 /* TmxTile.cpp */,
+				C03FA49A3D821284849E82DA /* TmxTileLayer.cpp */,
+				68C7F6AE405D8718C05764EE /* TmxTileOffset.cpp */,
+				0A15A3F80C09ACE2EF3F6238 /* TmxTileset.cpp */,
+				DAED382001EF598AFC354660 /* TmxUtil.cpp */,
+				C347697A69AADE64E33CA7BA /* base64 */,
+				60263B402D3A92AA52640980 /* miniz.c */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		5657BA570975BD81AB896097 /* TmxParser */ = {
+			isa = PBXGroup;
+			children = (
+				E8EAC24D3104ED3757A5C08D /* data */,
+				A4C1F921830F2B8B3DD2A761 /* include */,
+				4714CAE95DF33353427B3929 /* src */,
+				EA8E290FE2272BF9B2E0274F /* Products */,
+			);
+			name = TmxParser;
+			sourceTree = "<group>";
+		};
+		A4C1F921830F2B8B3DD2A761 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B4A5B8F8DBA7DA62D5EDC738 /* TmxParser */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		B4A5B8F8DBA7DA62D5EDC738 /* TmxParser */ = {
+			isa = PBXGroup;
+			children = (
+				E3659D3FD375C12976EA3B7F /* Tmx.h */,
+				6B92C3FB3AEE7965BDAF523B /* TmxEllipse.h */,
+				EFE8E325C77E738F47785165 /* TmxImage.h */,
+				5917D0FFCD446DE9DC760F3F /* TmxImageLayer.h */,
+				AFF033598785C3C3077FA199 /* TmxLayer.h */,
+				C396EEDB12B0DA459A293D1B /* TmxMap.h */,
+				6FA3E3F73EFF9961C1C07237 /* TmxMapTile.h */,
+				18CC394D2C078C3791F0378D /* TmxObject.h */,
+				0D5D6B273F24EA91E1443967 /* TmxObjectGroup.h */,
+				F4191973CBAEA9DD4BA887B3 /* TmxPoint.h */,
+				1F6127EFEEBCDD59717DB62F /* TmxPolygon.h */,
+				2746BDD73C6575C172BFDC17 /* TmxPolyline.h */,
+				07AC8B0139740A6BDB935941 /* TmxPropertySet.h */,
+				EB4D0A09BAA8BF733D699849 /* TmxTerrain.h */,
+				9F01086760A60A5107D466A7 /* TmxTerrainArray.h */,
+				C491701B41D3DE0588F04E5B /* TmxTile.h */,
+				A05E0EF5780A695FAE97BD35 /* TmxTileLayer.h */,
+				F8DCD5C96D0972B37C3B1409 /* TmxTileOffset.h */,
+				ABC2DFD37B1E953DFDDF6E13 /* TmxTileset.h */,
+				00E9DFBB7E2C4DA5C548BDFB /* TmxUtil.h */,
+			);
+			name = TmxParser;
+			sourceTree = "<group>";
+		};
+		C347697A69AADE64E33CA7BA /* base64 */ = {
+			isa = PBXGroup;
+			children = (
+				C80EA43091D037DA33D99A70 /* base64.cpp */,
+				F2E022DAFA2671843D29F91A /* base64.h */,
+			);
+			name = base64;
+			sourceTree = "<group>";
+		};
+		E8EAC24D3104ED3757A5C08D /* data */ = {
+			isa = PBXGroup;
+			children = (
+				279D81882EE3D03271E757C8 /* example.tmx */,
+				1F49038C19093DB60E6F09CC /* tmw_desert_spacing.png */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		EA8E290FE2272BF9B2E0274F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFEB19896FF5CB73ECEC77C9 /* TmxParser */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C7B074F27A223F923A99D8F /* TmxParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A3B91385D75DE228AC7CF78 /* Build configuration list for PBXNativeTarget "TmxParser" */;
+			buildPhases = (
+				0FEA1A190324670330765859 /* Resources */,
+				A99FA1D09CD9EEBACA2BE010 /* Sources */,
+				8E19357981538263AEA573B9 /* Frameworks */,
+				678FFB8472B7182E6EBE91C4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TmxParser;
+			productName = TmxParser;
+			productReference = FFEB19896FF5CB73ECEC77C9 /* TmxParser */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					1C7B074F27A223F923A99D8F = {
+					};
+				};
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "TmxParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 5657BA570975BD81AB896097 /* TmxParser */;
+			productRefGroup = CB04BB024F9E596C0F00E942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C7B074F27A223F923A99D8F /* TmxParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FEA1A190324670330765859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A99FA1D09CD9EEBACA2BE010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F869BC2926228ECD61A8202 /* TmxEllipse.cpp in Sources */,
+				5510750CA06FFD369B2B3B4C /* TmxImage.cpp in Sources */,
+				341C2086A3BB65306E13B6C6 /* TmxImageLayer.cpp in Sources */,
+				B9FDBD80055D45AA001883C0 /* TmxLayer.cpp in Sources */,
+				271DBEA2DA3BC1CC7C4F64E2 /* TmxMap.cpp in Sources */,
+				B7EFED34595227DEEFD54374 /* TmxObject.cpp in Sources */,
+				08944EAEDD1765D89ECA74EE /* TmxObjectGroup.cpp in Sources */,
+				46F70BF6C9D299200D8AF236 /* TmxPolygon.cpp in Sources */,
+				331989DEDB0D0988EE40001E /* TmxPolyline.cpp in Sources */,
+				C02432A894A749D2565A58E8 /* TmxPropertySet.cpp in Sources */,
+				EB637E306E3F0B5AB1F76470 /* TmxTerrain.cpp in Sources */,
+				B3F9CF6EB59F5918B05285AE /* TmxTerrainArray.cpp in Sources */,
+				4F10D76241BC4D0CB7450DA2 /* TmxTile.cpp in Sources */,
+				7C0F47DCEEE15A069AAC4E1C /* TmxTileLayer.cpp in Sources */,
+				75898A70E528CF1AAF8120B0 /* TmxTileOffset.cpp in Sources */,
+				6618CB1AE8F458442CACB15A /* TmxTileset.cpp in Sources */,
+				1705C90209B13EAC7F39FF42 /* TmxUtil.cpp in Sources */,
+				F683C152C42D513C2B13DF92 /* base64.cpp in Sources */,
+				94991D22AC6688CC581B1362 /* miniz.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17EA7ACFC2EBAA398C7F490F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Valeri Vuchov (WDTMDP2J2J)";
+				COMMON_HEADER_SEARCH_PATHS = (
+					../../../include,
+					../../../include/TmxParser,
+					../../../src,
+					../../../../tinyxml2/include,
+					../../../../zlib/include,
+				);
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_DEBUG,
+					_SCL_SECURE_NO_WARNINGS,
+					_CRT_SECURE_NO_WARNINGS,
+					_WINSOCK_DEPRECATED_NO_WARNINGS,
+					OS_IPHONE,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = "$(COMMON_HEADER_SEARCH_PATHS)";
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OBJROOT = obj/Debug/TmxParser;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-x",
+					"objective-c++",
+					"-Wno-error",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../../lib/xcode4/ios;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		2AD7FA899AE2AC7317D958C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Valeri Vuchov (WDTMDP2J2J)";
+				COMMON_HEADER_SEARCH_PATHS = (
+					../../../include,
+					../../../include/TmxParser,
+					../../../src,
+					../../../../tinyxml2/include,
+					../../../../zlib/include,
+				);
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+					"_SECURE_SCL=0",
+					"_SECURE_SCL_THROWS=0",
+					_SCL_SECURE_NO_WARNINGS,
+					_CRT_SECURE_NO_WARNINGS,
+					_WINSOCK_DEPRECATED_NO_WARNINGS,
+					OS_IPHONE,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = "$(COMMON_HEADER_SEARCH_PATHS)";
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OBJROOT = obj/Release/TmxParser;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-x",
+					"objective-c++",
+					"-Wno-error",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../../lib/xcode4/ios;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		9BB97FE4A4F1F40EAB8FC624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Valeri Vuchov (WDTMDP2J2J)";
+				COMMON_HEADER_SEARCH_PATHS = (
+					../../../include,
+					../../../include/TmxParser,
+					../../../src,
+					../../../../tinyxml2/include,
+					../../../../zlib/include,
+				);
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_DEBUG,
+					_SCL_SECURE_NO_WARNINGS,
+					_CRT_SECURE_NO_WARNINGS,
+					_WINSOCK_DEPRECATED_NO_WARNINGS,
+					OS_IPHONE,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = "$(COMMON_HEADER_SEARCH_PATHS)";
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OBJROOT = obj/Debug/TmxParser;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-x",
+					"objective-c++",
+					"-Wno-error",
+				);
+				PRODUCT_NAME = TmxParser_d;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../../lib/xcode4/ios;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		D276CA5E0B9CF10830F7A09E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Valeri Vuchov (WDTMDP2J2J)";
+				COMMON_HEADER_SEARCH_PATHS = (
+					../../../include,
+					../../../include/TmxParser,
+					../../../src,
+					../../../../tinyxml2/include,
+					../../../../zlib/include,
+				);
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+					"_SECURE_SCL=0",
+					"_SECURE_SCL_THROWS=0",
+					_SCL_SECURE_NO_WARNINGS,
+					_CRT_SECURE_NO_WARNINGS,
+					_WINSOCK_DEPRECATED_NO_WARNINGS,
+					OS_IPHONE,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = "$(COMMON_HEADER_SEARCH_PATHS)";
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OBJROOT = obj/Release/TmxParser;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-x",
+					"objective-c++",
+					"-Wno-error",
+				);
+				PRODUCT_NAME = TmxParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../../lib/xcode4/ios;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "TmxParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EA7ACFC2EBAA398C7F490F /* Debug */,
+				2AD7FA899AE2AC7317D958C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6A3B91385D75DE228AC7CF78 /* Build configuration list for PBXNativeTarget "TmxParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB97FE4A4F1F40EAB8FC624 /* Debug */,
+				D276CA5E0B9CF10830F7A09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

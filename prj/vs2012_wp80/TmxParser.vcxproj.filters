@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\TmxParser">
+      <UniqueIdentifier>{7EBB0C7E-EAD1-0A14-3349-96359F9EDB9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\base64">
+      <UniqueIdentifier>{E178F350-CD30-359E-3638-0EFA220FD08E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\TmxParser\Tmx.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxEllipse.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxImage.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxImageLayer.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxLayer.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxMap.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxMapTile.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxObject.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxObjectGroup.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxPoint.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxPolygon.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxPolyline.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxPropertySet.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxTerrain.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxTerrainArray.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxTile.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxTileLayer.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxTileOffset.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxTileset.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TmxParser\TmxUtil.h">
+      <Filter>include\TmxParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\base64\base64.h">
+      <Filter>src\base64</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\TmxEllipse.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TmxImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TmxImageLayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TmxLayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TmxMap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TmxObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TmxObjectGroup.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TmxPolygon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TmxPolyline.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TmxPropertySet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TmxTerrain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TmxTerrainArray.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TmxTile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TmxTileLayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TmxTileOffset.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TmxTileset.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TmxUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base64\base64.cpp">
+      <Filter>src\base64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\miniz.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
