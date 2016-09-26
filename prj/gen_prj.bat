@@ -1,7 +1,8 @@
 @echo off 
-SET MAKETOOL=..\tools\premake\release\premake5.exe
+SET MAKETOOL=..\..\..\..\..\premake\release\premake5.exe
 
 %MAKETOOL% vs2013
+%MAKETOOL% marmaladesdk
 %MAKETOOL% --arch=ios xcode4
 
 %MAKETOOL% --arch=wp80app vs2012

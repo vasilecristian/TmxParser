@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		104D7C0911F305B30CA63249 /* TmxParser_Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72DD01734238B6DDC4F98FB3 /* TmxParser_Test.cpp */; };
-		D4F6A2203DB622CA069BB860 /* libTmxParser_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B90B3D68B96886D254FC4BA8 /* libTmxParser_d.a */; };
+		8565742A3E8143D4591DEA6A /* libTmxParser_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F53B726FE1F3DC1CADA9B2 /* libTmxParser_d.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		99B672C2B183DE6C5D386902 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E09471A32DA1A28DDB272FE3 /* TmxParser.xcodeproj */;
+			containerPortal = 461E3FEDED521FD70C805E2D /* TmxParser.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = FFEB19896FF5CB73ECEC77C9;
 			remoteInfo = TmxParser;
 		};
 		B12D6CFBC8FAD8A574AF633B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E09471A32DA1A28DDB272FE3 /* TmxParser.xcodeproj */;
+			containerPortal = 461E3FEDED521FD70C805E2D /* TmxParser.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 1C7B074F27A223F923A99D8F;
 			remoteInfo = TmxParser;
@@ -29,10 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		461E3FEDED521FD70C805E2D /* libTmxParser_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "TmxParser.xcodeproj"; path = TmxParser.xcodeproj; sourceTree = SOURCE_ROOT; };
 		4E17CB5847D805823D3DD198 /* tmw_desert_spacing.png */ = {isa = PBXFileReference; lastKnownFileType = text; name = tmw_desert_spacing.png; path = ../../../data/tmw_desert_spacing.png; sourceTree = "<group>"; };
 		5FEFF0D467363F7EAA39C714 /* example.tmx */ = {isa = PBXFileReference; lastKnownFileType = text; name = example.tmx; path = ../../../data/example.tmx; sourceTree = "<group>"; };
 		72DD01734238B6DDC4F98FB3 /* TmxParser_Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TmxParser_Test.cpp; path = ../../../tests/TmxParser_Test.cpp; sourceTree = "<group>"; };
-		E09471A32DA1A28DDB272FE3 /* libTmxParser_d.a */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "TmxParser.xcodeproj"; path = TmxParser.xcodeproj; sourceTree = SOURCE_ROOT; };
 		F2CEA96B2BF4D015514F7FAB /* TmxParser_TEST */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = TmxParser_TEST; path = TmxParser_TEST_d; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F6A2203DB622CA069BB860 /* libTmxParser_d.a in Frameworks */,
+				8565742A3E8143D4591DEA6A /* libTmxParser_d.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,7 +51,7 @@
 		581EEAC54FB7EDAF2070E905 /* Projects */ = {
 			isa = PBXGroup;
 			children = (
-				E09471A32DA1A28DDB272FE3 /* TmxParser.xcodeproj */,
+				461E3FEDED521FD70C805E2D /* TmxParser.xcodeproj */,
 			);
 			name = Projects;
 			sourceTree = "<group>";
@@ -76,7 +76,7 @@
 		CB04BB024F9E596C0F00E942 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B90B3D68B96886D254FC4BA8 /* libTmxParser_d.a */,
+				04F53B726FE1F3DC1CADA9B2 /* libTmxParser_d.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,7 +146,7 @@
 			projectReferences = (
 				{
 					ProductGroup = CB04BB024F9E596C0F00E942 /* Products */;
-					ProjectRef = E09471A32DA1A28DDB272FE3 /* TmxParser.xcodeproj */;
+					ProjectRef = 461E3FEDED521FD70C805E2D /* TmxParser.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -157,7 +157,7 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B90B3D68B96886D254FC4BA8 /* libTmxParser_d.a */ = {
+		04F53B726FE1F3DC1CADA9B2 /* libTmxParser_d.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libTmxParser_d.a;
