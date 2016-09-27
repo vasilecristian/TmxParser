@@ -33,6 +33,8 @@
 #ifdef USE_MINIZ
 #define MINIZ_HEADER_FILE_ONLY
 #include "miniz.c"
+#elif defined(I3D_PLATFORM_S3E)
+#include "zlib.h"
 #else
 #include "zlib/zlib.h"
 #endif

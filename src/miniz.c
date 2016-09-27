@@ -2848,7 +2848,7 @@ void *tdefl_write_image_to_png_file_in_memory(const void *pImage, int w, int h, 
   #include <stdio.h>
   #include <sys/stat.h>
 
-  #if defined(_MSC_VER) || defined(__MINGW64__)
+  #if (defined(_MSC_VER) && !defined(I3D_PLATFORM_S3E)) || defined(__MINGW64__)
     static FILE *mz_fopen(const char *pFilename, const char *pMode)
     {
       FILE* pFile = NULL;
@@ -3039,7 +3039,7 @@ static time_t mz_zip_dos_to_time_t(int dos_time, int dos_date)
 
 static void mz_zip_time_to_dos_time(time_t time, mz_uint16 *pDOS_time, mz_uint16 *pDOS_date)
 {
-#ifdef _MSC_VER
+#if defined(_MSC_VER) && !defined(I3D_PLATFORM_S3E)
   struct tm tm_struct;
   struct tm *tm = &tm_struct;
   errno_t err = localtime_s(tm, &time);
