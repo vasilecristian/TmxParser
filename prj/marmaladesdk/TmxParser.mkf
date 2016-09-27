@@ -1,0 +1,85 @@
+files
+{
+    ["src"]
+	../../src/miniz.c
+	../../src/TmxEllipse.cpp
+	../../src/TmxImage.cpp
+	../../src/TmxImageLayer.cpp
+	../../src/TmxLayer.cpp
+	../../src/TmxMap.cpp
+	../../src/TmxObject.cpp
+	../../src/TmxObjectGroup.cpp
+	../../src/TmxPolygon.cpp
+	../../src/TmxPolyline.cpp
+	../../src/TmxPropertySet.cpp
+	../../src/TmxTerrain.cpp
+	../../src/TmxTerrainArray.cpp
+	../../src/TmxTile.cpp
+	../../src/TmxTileLayer.cpp
+	../../src/TmxTileOffset.cpp
+	../../src/TmxTileset.cpp
+	../../src/TmxUtil.cpp
+	../../src/base64/base64.cpp
+	../../src/base64/base64.h
+	../../include/TmxParser/Tmx.h
+	../../include/TmxParser/TmxEllipse.h
+	../../include/TmxParser/TmxImage.h
+	../../include/TmxParser/TmxImageLayer.h
+	../../include/TmxParser/TmxLayer.h
+	../../include/TmxParser/TmxMap.h
+	../../include/TmxParser/TmxMapTile.h
+	../../include/TmxParser/TmxObject.h
+	../../include/TmxParser/TmxObjectGroup.h
+	../../include/TmxParser/TmxPoint.h
+	../../include/TmxParser/TmxPolygon.h
+	../../include/TmxParser/TmxPolyline.h
+	../../include/TmxParser/TmxPropertySet.h
+	../../include/TmxParser/TmxTerrain.h
+	../../include/TmxParser/TmxTerrainArray.h
+	../../include/TmxParser/TmxTile.h
+	../../include/TmxParser/TmxTileLayer.h
+	../../include/TmxParser/TmxTileOffset.h
+	../../include/TmxParser/TmxTileset.h
+	../../include/TmxParser/TmxUtil.h
+}
+
+debug_defines
+{
+	
+    _DEBUG
+    _SCL_SECURE_NO_WARNINGS
+    _CRT_SECURE_NO_WARNINGS
+    _WINSOCK_DEPRECATED_NO_WARNINGS
+}
+
+defines
+{
+	
+    NDEBUG
+    _SECURE_SCL=0
+    _SECURE_SCL_THROWS=0
+    _SCL_SECURE_NO_WARNINGS
+    _CRT_SECURE_NO_WARNINGS
+    _WINSOCK_DEPRECATED_NO_WARNINGS
+}
+
+includepaths
+{
+	
+    ../../include
+    ../../include/TmxParser
+    ../../src
+    ../../../tinyxml2/include
+    ../../../zlib/include
+}
+
+librarypaths
+{
+	
+}
+
+options
+{
+	
+}
+
